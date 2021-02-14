@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+td{
+    font-weight: bold;
+}
+ 
+.container h2{
+    font-size: 40px;
+}
+
+@media screen and (max-width :1000px){
+    h5,th,td
+    {
+        width:100vW;
+        font-size:17px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+      
+@media screen and (max-width :900px){
+    h5,th,td
+    {
+        width:100vW;
+        font-size:15px;
+        padding:0 !important;
+        margin:0 !important;
+    }
+}
+ 
+@media screen and (max-width :800px){
+    h5,th,td{
+        width:100vW;
+        font-size:12px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width :600px){
+    h5,th,td{
+        width:100vW;
+        font-size:9px;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+}
+
+.container h2{
+    padding-top: 40px;
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 35px;
+}

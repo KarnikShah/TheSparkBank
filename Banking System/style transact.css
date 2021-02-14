@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container .row{
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.col-md-6{
+    padding: 30px;
+}
+
+.container .col-md-6{
+    width: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.form .btn:hover{
+    background-color: transparent;
+    color: purple;
+}

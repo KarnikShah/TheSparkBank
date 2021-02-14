@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container{
+    margin-top: 120px;
+}
+
+.container h1{
+    font-size: 30px;
+    color: blue;
+}
+
+.container span{
+    color: blue;
+}

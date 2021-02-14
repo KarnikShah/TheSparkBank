@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar{
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar .container .navbar-brand{
+    color: rgb(238, 236, 232);
+}
+
+.navbar .container .collapse .navbar-nav .nav-link{
+    color: white;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar-nav a:link{
+    text-decoration: none;
+}
+
+.navbar-nav a:visited{
+    text-decoration: none;  
+}
+
+.navbar-nav a:hover{
+    text-decoration: underline;
+}
+
+.navbar-nav a:active{
+    text-decoration: underline;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.row{
+    /* margin-top: 80px; */
+    padding-top: 25px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-6{
+    padding: 15px;
+}
+
+.text-container{
+    padding-top: 35px;
+    text-align: left;
+}
+
+h1{
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+span{
+    color: purple;
+}
+
+.btn-solid-lg{
+    display: inline-block;
+    padding: 1.375rem 2.65rem 1.375rem 2.625rem;
+    border: 0.125rem solid purple;
+    border-radius: 2rem;
+    background-color: purple;
+    color: white;
+    font: 700 0.75rem/0 sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+	background-color: transparent;
+	color: #121113;
+	text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.footer h4{
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h4{
+    display: block;
+    margin-block-start: 1.33rem;
+    margin-block-end: 1.33rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+}
+
+footer {
+	padding-top: 1.625rem;
+	padding-bottom: 1rem;
+}
+
+.footer .footer-col {
+	margin-bottom: 1rem;
+}
+
+.footer .list-unstyled .media-body {
+	margin-left: 0.6rem;
+}
+
+.footer .fa-stack {
+	margin-bottom: 0rem;
+	margin-right: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.footer .fa-stack .fa-stack-1x {
+    color: rgb(253, 209, 255);
+	transition: all 0.2s ease;
+}
+
+.footer .fa-stack .fa-stack-2x {
+	color: #86227e;
+	transition: all 0.2s ease;
+}
+
+.footer .fa-stack:hover .fa-stack-1x {
+	color: rgb(255, 206, 255);
+}
+
+.foter {
+    top: 0px;
+	color: white; 
+	width: 100%; 
+	height: 50px;
+	padding: 10px 10px; 
+    margin-top: 3px;
+}
+
+.foter h5 {
+	color: white;
+	float: left;
+	font-size:20px;
+}
+
+.foter h6 {
+	color: white;
+	margin-top: 6px;
+	float: right;
+	font-size: 20px;
+}
